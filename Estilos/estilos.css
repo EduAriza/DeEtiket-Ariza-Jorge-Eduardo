@@ -22,7 +22,7 @@ header{
 }
 
 header h1{
-    margin: 0 0 40% 0;
+    margin: 0 0% 20% 5%;
 }
 
 header nav{
@@ -249,7 +249,7 @@ footer img{
 
     header {
         width: 100%;
-        height: 10vh;
+        height: 32vh;
         background: #ff8c80;
         display: flex;
         flex-direction: row;
@@ -261,6 +261,7 @@ footer img{
     header h1 {
         margin: 0;
         color: #090b14;
+       
     }
 
     header nav {
@@ -284,7 +285,7 @@ footer img{
 
 footer{
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     background: #ff8c80;
@@ -387,7 +388,7 @@ footer{
 
     footer{
         width: 100%;
-        height: 25vh;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         background: #ff8c80;
@@ -653,6 +654,7 @@ header{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+
 
 .parrafoCentrado{
     padding-bottom: 20px;
