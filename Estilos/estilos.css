@@ -18,7 +18,7 @@ header{
     align-items: center;
     padding-top: 2rem;
     font-family: 'Rubik', sans-serif;
-    background-color:#ff8c80;
+     
 }
 
 header h1{
@@ -249,12 +249,11 @@ footer img{
 
     header {
         width: 100%;
-        height: 32vh;
-        background: #ff8c80;
+        height: 80vh;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: end;
         padding: 0 1rem;
     }
 
@@ -288,7 +287,7 @@ footer{
     height: 40vh;
     display: flex;
     flex-direction: column;
-    background: #ff8c80;
+    
    
 }
 
@@ -324,6 +323,16 @@ footer{
 @media screen and (min-width: 1024px) {
 
     /* =============   MAIN   ============ */
+
+    header {
+        width: 100%;
+        height: 32vh;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content:space-between;
+        padding: 0 1rem;
+    }
 
     .sectionNewinvierno{
         margin: 1rem 0 3rem 0;
@@ -391,7 +400,7 @@ footer{
         height: 35vh;
         display: flex;
         flex-direction: column;
-        background: #ff8c80;
+        
        
     }
 
