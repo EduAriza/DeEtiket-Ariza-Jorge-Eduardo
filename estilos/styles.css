@@ -39,12 +39,16 @@ header {
   color: blue;
   padding-top: 10px;
   padding-bottom: 20px;
+  font-family: "PT Serif", serif;
+  margin-left: 25px;
 }
 
 .parrafoCentrado {
   padding-bottom: 20px;
   padding-left: 100px;
   padding-right: 100px;
+  border: 20px solid rgb(47, 189, 255);
+  margin: 25px;
 }
 
 footer {
