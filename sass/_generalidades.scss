@@ -22,7 +22,7 @@
   }
   
   p { 
-    color: black;
+    color: $color;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -37,13 +37,22 @@
   .tituloCentrado {
     display: flex;
     justify-content: center;
-    color: blue;
+    color: rgb(40, 143, 202);
     padding-top: 10px;
     padding-bottom: 20px;
-    font-family: 'PT Serif', serif;
+    margin-top: 10px;
+    font-family: "Mouse Memoirs", sans-serif;
     margin-left: 25px;
+    @extend .BordeTituloCentrado;
+    margin-right: 5px;
+   
   }
+
+ .BordeTituloCentrado{
+  border: goldenrod solid 2px; 
   
+ }
+
   .parrafoCentrado {
     padding-bottom: 20px;
     padding-left: 100px;
@@ -55,4 +64,19 @@
   footer {
     background: rgb(9, 92, 121);
     background: linear-gradient(90deg, rgb(9, 92, 121) 11%, rgb(6, 135, 169) 33%, rgb(6, 135, 169) 60%, rgb(0, 212, 255) 95%);
-  }/*# sourceMappingURL=styles.css.map */
+  }
+  
+
+  @mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+    
+  }
+
+  .fotoModelo{
+    @include sizes (100px, 400px)
+  }
+  /*# sourceMappingURL=styles.css.map */
+
+
+  

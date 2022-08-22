@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:ital,wght@1,100&family=Roboto:wght@100&family=Rubik:wght@300&display=swap"); /* GENERALIDADES */
+/* GENERALIDADES */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:ital,wght@1,100&family=Roboto:wght@100&family=Rubik:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -36,11 +37,17 @@ header {
 .tituloCentrado {
   display: flex;
   justify-content: center;
-  color: blue;
+  color: rgb(40, 143, 202);
   padding-top: 10px;
   padding-bottom: 20px;
-  font-family: "PT Serif", serif;
+  margin-top: 10px;
+  font-family: "Mouse Memoirs", sans-serif;
   margin-left: 25px;
+  margin-right: 5px;
+}
+
+.BordeTituloCentrado, .tituloCentrado {
+  border: goldenrod solid 2px;
 }
 
 .parrafoCentrado {
@@ -54,7 +61,14 @@ header {
 footer {
   background: rgb(9, 92, 121);
   background: linear-gradient(90deg, rgb(9, 92, 121) 11%, rgb(6, 135, 169) 33%, rgb(6, 135, 169) 60%, rgb(0, 212, 255) 95%);
-} /*# sourceMappingURL=styles.css.map */
+}
+
+.fotoModelo {
+  height: 400px;
+  width: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */
 /* MOBILE */
 /* ------------------HEADER--------------------- */
 header {
