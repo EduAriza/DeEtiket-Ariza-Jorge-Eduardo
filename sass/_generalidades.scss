@@ -7,13 +7,13 @@
   }
   
   h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'PT Serif', serif;
   }
   
   h2 {
-     color: rgb(40, 143, 202);
-     font-family: "Mouse Memoirs", sans-serif;
-     justify-content: center;
+     color: rgb(40, 124, 202);
+     font-family: 'Anek Telugu', sans-serif;
+     justify-content:center;
      font-size: 40px;
   }
   
@@ -41,7 +41,7 @@
     padding-top: 10px;
     padding-bottom: 20px;
     margin-top: 10px;
-    font-family: "Mouse Memoirs", sans-serif;
+    font-family: 'PT Serif', serif;
     margin-left: 25px;
     @extend .BordeTituloCentrado;
     margin-right: 5px;
@@ -49,7 +49,7 @@
   }
 
  .BordeTituloCentrado{
-  border: goldenrod solid 2px; 
+  border: goldenrod solid 5px; 
   
  }
 
@@ -57,8 +57,13 @@
     padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    border: 20px solid rgb(47, 189, 255);
+    border: goldenrod solid 5px;
     margin: 25px;
+  }
+
+  .titulosNosotros{
+    display: flex;
+    justify-content: center;
   }
   
   footer {
