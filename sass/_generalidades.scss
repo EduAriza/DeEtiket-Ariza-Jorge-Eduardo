@@ -1,5 +1,4 @@
 /* GENERALIDADES */
-
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +47,7 @@
    
   }
 
- .BordeTituloCentrado{
+ .BordeTituloCentrado {
   border: goldenrod solid 5px; 
   
  }
@@ -81,8 +80,6 @@
   .fotoModelo{
     @include sizes (100px, 400px)
   }
-
-  
   /*# sourceMappingURL=styles.css.map */
 
 

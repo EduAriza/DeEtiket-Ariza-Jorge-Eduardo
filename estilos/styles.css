@@ -572,4 +572,10 @@ footer img {
     display: flex;
     align-items: center;
   }
+}
+.col-12 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
